@@ -37,7 +37,7 @@ app.post("/", function(req, res) {
 
       const htmlResponse = `
             <h1>The weather is currently ${weatherDescription}.</h1>
-            <p>The temperature in Izmir is ${temp} degrees Celsius.</p>
+            <p>The temperature in ${query} is ${temp} degrees Celsius.</p>
             <img src="${imageURL}" alt="Weather Icon">
           `;
 
